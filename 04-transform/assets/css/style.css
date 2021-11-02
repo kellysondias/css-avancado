@@ -1,0 +1,26 @@
+img {
+    width: 300px;
+    height: 300px;
+}
+
+.h2-3 {
+    padding-top: 50px;
+}
+
+.h2-2 {
+    padding-bottom: 43px;
+}
+
+img.scale {
+    transform: scaleX(2);
+}
+
+img.rotate {
+    transform: rotate(45deg);
+    padding-left: 70px;
+    padding-bottom: 20px;
+}
+
+img.translate {
+    transform: translate(50px,150px);
+}

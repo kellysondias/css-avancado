@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    font-size: 40px;
+}
+
+h1 {
+    color: rgb(11, 112, 11);
+}
+
+p, span {
+    font-size: 30px;
+}
+
+/* div > p {
+    color: royalblue;
+} */
+
+div + p {
+    color: royalblue;
+}
+
+a[target=_blank] {
+    color: red;
+}
+
+.paragrafo {
+    color: rgb(34, 34, 185);
+}
+
+.titulo {
+    font-size: 20px;
+}
+
+.titulo.vermelho {
+    color: red;
+}
+
+.titulo.laranja {
+    color: orange;
+}
+
+.sobre .texto {
+    color: palevioletred;
+}
+
+#menu {
+    background-color: red;
+    margin-left: 100px;
+    display: inline-block;
+}
+
